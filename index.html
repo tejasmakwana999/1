@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- --------------------CSS link------------------------------------------------------------------- -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responcive.css">
+
+<!-- =============================================================================================== -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <title>Website Design & Development</title>
+</head>
+<body>
+
+    <nav class="navbar background h-nav-resp" id="back" >
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#services">services</a></li>
+            <li> <a href="#about">about</a></li>
+            <li> <a href="#contactus">contact us</a></li>
+        </ul>
+        <div class="right-nav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burgar">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background first-section" id="home">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big text-b">tm creation is hear</p>
+                <p class="text-small text-s"> In this world 7 billeon people we need to
+                    educate all of them. This is the future of an educated and we are proued to say that the future of education is hear</p>
+
+
+
+
+
+                    <div class="buttons">
+                        <a href="https://youtube.com/channel/UCE0jBxvFV-OMRxlLyl8BT4A" target="_blank">
+                            <button class="btn r-btn">subscribe</button>
+                        </a>
+                        
+                        <a href="https://youtube.com/channel/UCE0jBxvFV-OMRxlLyl8BT4A" target="_blank">
+                            <button class="btn r-btn">Watch videos</button>
+                        </a>
+
+                    </div>
+            </div>
+            <div class="secondhalf">
+                <img src="img/Tm creation.png" alt="leptop image">
+            </div>
+        </div>
+
+    </section>
+  
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">Web Development</p>
+        <p class="sectionSubTag text-small">
+            We do innovative development of web application and Business Tools solutions.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?html,webdevelopment,html" alt="IMAGE" class="imagefluid">
+        </div>
+    </section>
+
+
+    <section class="section section-left">
+        <div class="paras">
+        <p class="sectionTag text-big">Web Design</p>
+        <p class="sectionSubTag text-small">
+            Good web design helps duplicate your time We work to make you look good online.  
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?coding,webdesign,css" alt="IMAGE" class="imagefluid">
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">Digital Marketing</p>
+        <p class="sectionSubTag text-small">
+            Achieve the highest possible rankings in Google and more customers by using the affordable.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?coding,digitalmarketing,java,javascript" alt="IMAGE" class="imagefluid">
+        </div>
+    </section>
+
+    <hr>
+    <!-- ===================About us======================================================================= -->
+
+    <section class="about" id="about">
+        <div class="main">
+          <div class="imgg">
+            <img src="img/Tm creation.png" />
+          </div>
+          <div class="A-text">
+            <h1>About Us</h1>
+            <h5>Developer <span>& Designer</span></h5>
+            <div class="p">
+                I am a fornt-end web developer. I can provide clen code and pixel
+            perfect design. I also make the website more & more interactive with
+            web animations. I can provide clen code and pixel perfect design. I
+            also make the website more & more interactive with web animations. A
+            responsive design make your website accessible to all users,
+            regardless on thair device.
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- ===================Contact us===================================================================== -->
+
+<section class="contact" id="contactus">
+    <h1 class="text-center">Contact Us</h1>
+        <!-- <div class="c-form">
+           <div class="add">
+            <div id="c-icon">
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Dedarva</h5>
+                    <p>Jetpur,Rajkot</p>
+                </span>
+            </div>
+            <div id="c-icon">
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 942xx xx317</h5>
+                    <p>open 09:00 AM to 06:00 PM </p>
+                </span>
+            </div>
+            <div id="c-icon">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>tejasmakwana222@gmail.com</h5>
+                    <p>email us your query</p>
+                </span>
+            </div>
+        </div> -->
+
+
+            <div class="form">
+                <form onsubmit="sendEmail(); reset; return false;">
+                    <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                    <input class="form-input" type="tel" name="phone" id="phone" placeholder="Enter Your Phone" required>
+                    <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email" required>
+                    <textarea class="form-input" name="text" id="text"  rows="5" placeholder="Message"></textarea>
+                
+                    <button type="submit" class="btn btn-sm btn-dark r-btn">Submit</button>
+                    <button type="reset" class="btn btn-sm btn-dark r-btn">Cancle</button>
+
+                </form>
+            </div>
+        </div>
+</section>
+
+
+<!-- ==========================Footer===================================================================== -->
+<hr>
+<footer>
+    <div class="icon">
+
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>  
+        <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a> 
+         
+     
+     
+     </div>
+     <p class="f-text">
+        Made with   <i class="fa fa-heart-o"></i> by Tejas Makwana
+    
+    
+    </p>
+    <!-- <i class="fa fa-facebook-official"></i> -->
+
+    <div class="ftr">
+        <p class="text-footer">Copyright &copy; TM Websolutions All rights reserved</p>
+    </div>
+</footer>
+
+<script src="js/resp.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail(){
+      Email.send({
+                Host : "smtp.gmail.com",
+                Username : "tejasmakwana0001@gmail.com",
+                Password : "GJ03hc27890",
+                To : 'tejasmakwana222@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+    }
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
